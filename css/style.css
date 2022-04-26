@@ -21,6 +21,8 @@ li {
 
 img {
 	vertical-align: top;
+	display: block;
+   max-width: 100%;
 }
 
 h1,
@@ -49,7 +51,13 @@ body {
 	padding: 0 15px;
 	margin: 0 auto;
 }
-
+.big-container {
+	max-width: 1440px;
+	margin: 0 auto;
+}
+.main {
+	background-image: url(../../img/intro/background.png);
+}
 /* ---------------------------------------------------------------------------------------------------------- */
 /* MENU BURGER */
 .header__menu_icon {
