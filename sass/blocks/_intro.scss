@@ -1,11 +1,12 @@
 .intro {
+	background-image: url(../../img/intro/background.png);
 
 	&__wrapper {
 		position: relative;
 
 		min-height: 840px;
 
-		padding-top: 181.5px;
+		padding-top: 180px;
 	}
 
 	&__img-right-bottom {
@@ -148,7 +149,6 @@
 			img {
 				width: 70%;
 			}
-	
 		}
 	
 		&__img-right-top {
@@ -157,20 +157,23 @@
 			img {
 				width: 70%;
 			}
-	
 		}
 	}
 }
 @media (max-width: 767px) {
 	
 	.intro {
-	
+
+		&__wrapper {
+		
+			padding-top: 200px;
+		}
+
 		&__img-left-top {
 	
 			img {
 				width: 60%;
 			}
-	
 		}
 	
 		&__img-right-top {
@@ -178,10 +181,6 @@
 			img {
 				width: 60%;
 			}
-	
-		}
-		&__info {
-			
 		}
 		
 		&__text {
@@ -206,5 +205,91 @@
 			right: 70px;
 		
 		}
+	}
+}
+@media (max-width: 500px) {
+	.intro {
+	
+		&__wrapper {
+	
+			min-height: 640px;
+			padding-top: 150px;
+		}
+	
+		&__img-right-center {
+			
+			img {
+				width: 50%;
+			}
+		}
+		&__img-left-top {
+			
+			img {
+				width: 50%;
+			}
+		}
+	
+		&__img-right-top {
+
+			img {
+				width: 30%;
+			}
+		}
+		&__img-left-bottom {
+			left: 30px;
+			img {
+				width: 60%;
+			}
+		}
+	
+		&__text {
+	
+			margin-bottom: 40px;
+		}
+	
+		&__title {
+			font-size: 40px;
+		}
+	
+		&__info-picture {
+	
+			img {
+	
+				width: 80%;
+			}
+		}
+	
+		&__buttons {
+
+			flex-wrap: wrap;
+			flex-direction: column;
+		}
+
+		&__buttons-orange {
+
+			margin: 0;
+			margin-bottom: 20px;
+		}
+	}
+}
+@media (max-width: 400px) {
+	.intro {
+		&__text {
+		
+			margin-bottom: 20px;
+		}
+		&__title {
+			font-size: 30px;
+			line-height: 45px;
+		}
+	
+		&__buttons {
+
+			a {
+
+			padding: 10px 29px;
+			}
+		}
+	
 	}
 }
