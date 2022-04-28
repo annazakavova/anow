@@ -1,0 +1,167 @@
+.works {
+
+	&__info {
+		position: relative;
+	}
+
+	&__element {
+		padding-bottom: 100px;
+
+		position: relative;
+
+		text-align: center;
+		margin: 0 auto;
+		overflow: hidden;
+
+		img {
+			display: inline;
+
+		}
+	}
+	&__element-circle::before {
+			content: "";
+	
+			display: block;
+			width: 606px;
+			
+			position: absolute;
+			border-bottom: 1px solid #000;
+
+			top: 40px;
+	}
+		&__element-circle::after {
+			content: "";
+		
+			display: block;
+			width: 606px;
+		
+			position: absolute;
+			border-bottom: 1px solid #000;
+		
+			top: 40px;
+			right: 0;
+		}
+	// &__element-line::before {
+	// 	content: "";
+		
+	// 	position: absolute;
+	// 	width: 606px;
+	// 	height: 2px;
+
+	// 	left: -10%;
+		
+	// 	background: #F5F5F5;
+	// }
+	// &__element-line::after {
+	// 	content: "";
+		
+	// 	position: absolute;
+	// 	width: 606px;
+	// 	height: 2px;
+		
+	// 	right: -100px;
+			
+	// 	background: #F5F5F5;
+	// }
+	// &__element-circle::before {
+	// 	content: "";
+		
+	// 	position: absolute;
+	// 	width: 80px;
+	// 	height: 80px;
+
+	// 	left: 47%;
+	// 	top: -40px;
+		
+	// 	background: rgba(253, 133, 88, 0.2);
+	// 	border-radius: 40px;
+	// }
+
+	&__intro {
+		display: flex;
+		justify-content: space-between;
+
+		align-items: flex-end;
+
+	}
+
+	&__name-link {
+		font-size: 14px;
+		line-height: 15px;
+		
+		color: #FD8558;
+		
+		margin-bottom: 6px;
+	}
+
+	&__name-text {
+		font-size: 32px;
+		line-height: 38px;
+			
+		color: #333333;
+	}
+
+	&__button-orange {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		
+		font-weight: 700;
+		font-size: 15px;
+		line-height: 30px;
+		color: #FFFFFF;
+		
+		background: #FD8558;
+		padding: 13px 37px 13px 37px;
+	}
+	&__works {
+		font-size: 200px;
+		line-height: 180px;
+
+		color: #F7F7F7;
+
+		position: absolute;
+		right: -133px;
+	}
+}
+// @media (max-width: 1600px) {
+// 	.works {
+// 		&__element-line::before {
+// 			width: 506px;
+	
+// 			left: 0px;
+// 		}
+	
+// 		&__element-line::after {
+// 			width: 506px;
+	
+// 			right: 0px;
+// 		}
+	
+// 		&__works {
+// 			right: 0px;
+// 		}
+// 	}
+// }
+// @media (max-width: 1380px) {
+// 	.works {
+// 		&__element-line::before {
+// 			width: 306px;
+
+// 		}
+
+// 		&__element-line::after {
+// 			width: 306px;
+
+// 		}
+// 		&__element-circle::before {
+		
+// 			left: 565px;
+			
+// 		}
+		
+// 		&__works {
+// 			right: 0px;
+// 		}
+// 	}
+// }
