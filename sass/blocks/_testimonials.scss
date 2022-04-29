@@ -1,0 +1,109 @@
+.testimonials {
+
+	background-color: #3A0F73;
+
+	padding-bottom: 180px;
+
+	&__testimonials {
+		font-size: 200px;
+		line-height: 220px;
+		
+		color: rgba(170, 170, 170, 0.1);
+
+		padding-top: 70px;
+		margin-bottom: 45px;
+	}
+
+	&__title {
+		max-width: 824px;
+		font-size: 18px;
+		line-height: 29px;
+		margin: 0 auto;
+		text-align: center;
+
+		color: #FFFFFF;
+	}
+
+	&__account {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		margin-top: 64px;
+	}
+
+	&__account-info {
+		line-height: 22px;
+		
+		color: #FFFFFF;
+
+		margin-top: -20px;
+	}
+
+	&__account-name {
+		font-size: 14px;
+	}
+
+	&__account-position {
+		font-size: 13px;
+	}
+}
+
+@media (max-width: 1400px) {
+	.testimonials {
+	
+		padding-bottom: 180px;
+	
+		&__testimonials {
+			font-size: 150px;
+			line-height: 170px;
+
+			text-align: center;
+		}
+	}
+}
+@media (max-width: 956px) {
+	.testimonials {
+	
+		padding-bottom: 100px;
+	
+		&__testimonials {
+			font-size: 100px;
+			line-height: 140px;
+	
+			padding-top: 50px;
+			margin-bottom: 25px;
+		}
+	
+		&__account {
+			margin-top: 44px;
+		}
+	}
+}
+@media (max-width: 956px) {
+	.testimonials {
+
+		padding-bottom: 60px;
+
+		&__testimonials {
+			font-size: 70px;
+			line-height: 100px;
+
+			padding-top: 30px;
+			margin-bottom: 15px;
+		}
+
+		&__account {
+			margin-top: 34px;
+		}
+	}
+}
+@media (max-width: 450px) {
+	.testimonials {
+
+		&__testimonials {
+			font-size: 50px;
+			line-height: 70px;
+		}
+	}
+}

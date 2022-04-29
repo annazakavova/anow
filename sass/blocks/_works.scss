@@ -1,4 +1,6 @@
 .works {
+	// IMPORTANT
+	padding-bottom: 250px;
 
 	&__info {
 		position: relative;
@@ -109,7 +111,7 @@
 	}
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1440px) {
 	.works {
 		&__element {
 			display: none;

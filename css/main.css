@@ -320,75 +320,77 @@
 @media (max-width: 900px) {
   .benefits__card:not(:last-child) {
     margin-bottom: 50px; } }
-.works__info {
-  position: relative; }
-.works__element {
-  padding-bottom: 100px;
-  text-align: center;
-  margin: 0 auto;
-  overflow: hidden; }
-  .works__element img {
-    display: inline; }
-.works__element-circle::before {
-  content: "";
-  display: block;
-  width: 606px;
-  position: absolute;
-  border-bottom: 1px solid #000;
-  top: 40px;
-  left: -100px; }
-.works__element-circle::after {
-  content: "";
-  display: block;
-  width: 606px;
-  position: absolute;
-  border-bottom: 1px solid #000;
-  top: 40px;
-  right: -100px; }
-.works__intro {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end; }
-.works__name-link {
-  font-size: 14px;
-  line-height: 15px;
-  color: #FD8558;
-  margin-bottom: 8px;
-  transition: 0.3s ease-in; }
-.works__name-link:hover {
-  font-weight: bold;
-  font-size: 16px;
-  transform: scale(1.05); }
-.works__name-text {
-  font-size: 32px;
-  line-height: 38px;
-  color: #333333; }
-.works__button {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-  .works__button a {
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 30px;
-    color: #FFFFFF;
-    background: #FD8558;
-    padding: 13px 37px 13px 37px;
-    transition: 0.3s ease-in; }
-  .works__button a:hover {
-    background: #FFFFFF;
+.works {
+  padding-bottom: 250px; }
+  .works__info {
+    position: relative; }
+  .works__element {
+    padding-bottom: 100px;
+    text-align: center;
+    margin: 0 auto;
+    overflow: hidden; }
+    .works__element img {
+      display: inline; }
+  .works__element-circle::before {
+    content: "";
+    display: block;
+    width: 606px;
+    position: absolute;
+    border-bottom: 1px solid #000;
+    top: 40px;
+    left: -100px; }
+  .works__element-circle::after {
+    content: "";
+    display: block;
+    width: 606px;
+    position: absolute;
+    border-bottom: 1px solid #000;
+    top: 40px;
+    right: -100px; }
+  .works__intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end; }
+  .works__name-link {
+    font-size: 14px;
+    line-height: 15px;
     color: #FD8558;
-    transform: scale(1.05);
-    border: 2px solid #FD8558; }
-.works__works {
-  font-size: 200px;
-  line-height: 180px;
-  color: #F7F7F7;
-  position: absolute;
-  z-index: -1;
-  right: -133px; }
+    margin-bottom: 8px;
+    transition: 0.3s ease-in; }
+  .works__name-link:hover {
+    font-weight: bold;
+    font-size: 16px;
+    transform: scale(1.05); }
+  .works__name-text {
+    font-size: 32px;
+    line-height: 38px;
+    color: #333333; }
+  .works__button {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .works__button a {
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 30px;
+      color: #FFFFFF;
+      background: #FD8558;
+      padding: 13px 37px 13px 37px;
+      transition: 0.3s ease-in; }
+    .works__button a:hover {
+      background: #FFFFFF;
+      color: #FD8558;
+      transform: scale(1.05);
+      border: 2px solid #FD8558; }
+  .works__works {
+    font-size: 200px;
+    line-height: 180px;
+    color: #F7F7F7;
+    position: absolute;
+    z-index: -1;
+    right: -133px; }
 
-@media (max-width: 1200px) {
+@media (max-width: 1440px) {
   .works__element {
     display: none; }
   .works__works {
@@ -435,5 +437,67 @@
   .work-cards__form-title {
     font-size: 24px;
     line-height: 33px; }
+
+.testimonials {
+  background-color: #3A0F73;
+  padding-bottom: 180px; }
+  .testimonials__testimonials {
+    font-size: 200px;
+    line-height: 220px;
+    color: rgba(170, 170, 170, 0.1);
+    padding-top: 70px;
+    margin-bottom: 45px; }
+  .testimonials__title {
+    max-width: 824px;
+    font-size: 18px;
+    line-height: 29px;
+    margin: 0 auto;
+    text-align: center;
+    color: #FFFFFF; }
+  .testimonials__account {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 64px; }
+  .testimonials__account-info {
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-top: -20px; }
+  .testimonials__account-name {
+    font-size: 14px; }
+  .testimonials__account-position {
+    font-size: 13px; }
+
+@media (max-width: 1400px) {
+  .testimonials {
+    padding-bottom: 180px; }
+    .testimonials__testimonials {
+      font-size: 150px;
+      line-height: 170px;
+      text-align: center; } }
+@media (max-width: 956px) {
+  .testimonials {
+    padding-bottom: 100px; }
+    .testimonials__testimonials {
+      font-size: 100px;
+      line-height: 140px;
+      padding-top: 50px;
+      margin-bottom: 25px; }
+    .testimonials__account {
+      margin-top: 44px; } }
+@media (max-width: 956px) {
+  .testimonials {
+    padding-bottom: 60px; }
+    .testimonials__testimonials {
+      font-size: 70px;
+      line-height: 100px;
+      padding-top: 30px;
+      margin-bottom: 15px; }
+    .testimonials__account {
+      margin-top: 34px; } }
+@media (max-width: 450px) {
+  .testimonials__testimonials {
+    font-size: 50px;
+    line-height: 70px; } }
 
 /*# sourceMappingURL=main.css.map */
