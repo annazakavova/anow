@@ -1,0 +1,121 @@
+.posts {
+	padding-top: 122px;
+
+	&__link {
+		font-size: 14px;
+		line-height: 15px;
+
+		color: #FD8558;
+
+		text-align: center;
+	}
+
+	&__name {
+		font-size: 32px;
+		line-height: 42px;
+
+		margin-top: 42px;
+
+		text-align: center;
+	}
+
+	&__cards {
+		margin-top: 16px;
+		margin-bottom: 115px;
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+
+	&__card:not(:last-child) {
+		margin-right: 30px;
+	}
+
+	&__card-img {
+		margin-bottom: 20px;
+	}
+
+	&__card-info {
+		display: flex;
+
+		margin-bottom: 20px;
+	}
+
+	&__card-info-direction {
+		font-size: 15px;
+		line-height: 21px;
+
+		color: #FD8558;
+
+		margin-right: 25px;
+	}
+
+	&__card-info-date {
+		font-size: 14px;
+		line-height: 21px;
+
+		color: #999999;
+	}
+
+	&__card-title {
+		width: 326px;
+
+		font-size: 24px;
+		line-height: 33px;
+
+		margin-bottom: 36px;
+	}
+
+	&__card-link {
+		font-size: 15px;
+		line-height: 21px;
+
+		color: #FD8558;
+	}
+}
+
+@media (max-width: 1230px) {
+	.posts {
+
+		&__card {
+			margin-bottom: 30px;
+		}
+	}
+}
+@media (max-width: 780px) {
+	.posts {
+
+		&__card:last-child {
+			margin-right: 30px;
+		}
+	}
+}
+@media (max-width: 656px) {
+	.posts {
+		&__card {
+			margin-right: 0;
+		}
+		&__card:nth-child(2) {
+			margin-right: 0;
+		}
+		
+		&__card:last-child {
+			margin-right: 0;
+		}
+		&__card:not(:last-child) {
+			margin-right: 0;
+		}
+	}
+}
+@media (max-width: 500px) {
+	.posts {
+		padding-top: 80px;
+	
+	
+		&__cards {
+			margin-bottom: 80px;
+		}
+	}
+}

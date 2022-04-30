@@ -365,23 +365,6 @@
     font-size: 32px;
     line-height: 38px;
     color: #333333; }
-  .works__button {
-    display: flex;
-    justify-content: center;
-    align-items: center; }
-    .works__button a {
-      font-weight: 700;
-      font-size: 15px;
-      line-height: 30px;
-      color: #FFFFFF;
-      background: #FD8558;
-      padding: 13px 37px 13px 37px;
-      transition: 0.3s ease-in; }
-    .works__button a:hover {
-      background: #FFFFFF;
-      color: #FD8558;
-      transform: scale(1.05);
-      border: 2px solid #FD8558; }
   .works__works {
     font-size: 200px;
     line-height: 180px;
@@ -499,5 +482,84 @@
   .testimonials__testimonials {
     font-size: 50px;
     line-height: 70px; } }
+.posts {
+  padding-top: 122px; }
+  .posts__link {
+    font-size: 14px;
+    line-height: 15px;
+    color: #FD8558;
+    text-align: center; }
+  .posts__name {
+    font-size: 32px;
+    line-height: 42px;
+    margin-top: 42px;
+    text-align: center; }
+  .posts__cards {
+    margin-top: 16px;
+    margin-bottom: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; }
+  .posts__card:not(:last-child) {
+    margin-right: 30px; }
+  .posts__card-img {
+    margin-bottom: 20px; }
+  .posts__card-info {
+    display: flex;
+    margin-bottom: 20px; }
+  .posts__card-info-direction {
+    font-size: 15px;
+    line-height: 21px;
+    color: #FD8558;
+    margin-right: 25px; }
+  .posts__card-info-date {
+    font-size: 14px;
+    line-height: 21px;
+    color: #999999; }
+  .posts__card-title {
+    width: 326px;
+    font-size: 24px;
+    line-height: 33px;
+    margin-bottom: 36px; }
+  .posts__card-link {
+    font-size: 15px;
+    line-height: 21px;
+    color: #FD8558; }
+
+@media (max-width: 1230px) {
+  .posts__card {
+    margin-bottom: 30px; } }
+@media (max-width: 780px) {
+  .posts__card:last-child {
+    margin-right: 30px; } }
+@media (max-width: 656px) {
+  .posts__card {
+    margin-right: 0; }
+  .posts__card:nth-child(2) {
+    margin-right: 0; }
+  .posts__card:last-child {
+    margin-right: 0; }
+  .posts__card:not(:last-child) {
+    margin-right: 0; } }
+@media (max-width: 500px) {
+  .posts {
+    padding-top: 80px; }
+    .posts__cards {
+      margin-bottom: 80px; } }
+.message {
+  margin-bottom: 115px; }
+  .message__intro {
+    display: flex; }
+  .message__info {
+    margin-right: 117px; }
+  .message__info-address-address {
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(34, 34, 34, 0.4); }
+  .message__info-information-information {
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(34, 34, 34, 0.4); }
 
 /*# sourceMappingURL=main.css.map */

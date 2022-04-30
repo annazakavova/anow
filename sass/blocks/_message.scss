@@ -1,0 +1,50 @@
+.message {
+	margin-bottom: 115px;
+
+	&__intro {
+		display: flex;
+	}
+
+	&__info {
+		margin-right: 117px;
+	}
+
+	&__info-address {}
+
+	&__info-address-address {
+		font-size: 14px;
+		line-height: 20px;
+
+		color: rgba(34, 34, 34, 0.4);
+	}
+
+	&__info-address-street {}
+
+	&__info-address-city {}
+
+	&__info-information {}
+
+	&__info-information-information{
+		font-size: 14px;
+		line-height: 20px;
+
+		color: rgba(34, 34, 34, 0.4);
+	}
+
+	&__info-information-mail {}
+
+	&__info-information-phone {}
+
+	&__forms {}
+
+	&__forms-info {}
+
+	&__forms-message {}
+
+	&__form-buttons {}
+}
+
+.form-buttons {
+
+	&__button {}
+}

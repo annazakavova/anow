@@ -56,6 +56,30 @@ body {
 	margin: 0 auto;
 }
 /* ---------------------------------------------------------------------------------------------------------- */
+/* BUTTON */
+.button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.button a {
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 30px;
+	color: #FFFFFF;
+	
+	background: #FD8558;
+	padding: 13px 37px 13px 37px;
+	transition: 0.3s ease-in;
+}
+.button a:hover {
+	background: #FFFFFF;
+	color: #FD8558;
+
+	transform: scale(1.05);
+	border: 2px solid #FD8558;
+}
+/* ---------------------------------------------------------------------------------------------------------- */
 /* MENU BURGER */
 .header__menu_icon {
 	display: none;
