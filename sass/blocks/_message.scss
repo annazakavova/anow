@@ -3,13 +3,12 @@
 
 	&__intro {
 		display: flex;
+		flex-wrap: wrap;
 	}
 
 	&__info {
-		margin-right: 117px;
+		margin-right: 132px;
 	}
-
-	&__info-address {}
 
 	&__info-address-address {
 		font-size: 14px;
@@ -18,11 +17,17 @@
 		color: rgba(34, 34, 34, 0.4);
 	}
 
-	&__info-address-street {}
+	&__info-address-street {
+		font-size: 24px;
+		line-height: 33px;
+	}
 
-	&__info-address-city {}
+	&__info-address-city {
+		font-size: 24px;
+		line-height: 33px;
 
-	&__info-information {}
+		margin-bottom: 45px;
+	}
 
 	&__info-information-information{
 		font-size: 14px;
@@ -31,20 +36,77 @@
 		color: rgba(34, 34, 34, 0.4);
 	}
 
-	&__info-information-mail {}
+	&__info-information-mail {
+		font-size: 24px;
+		line-height: 33px;
+	}
 
-	&__info-information-phone {}
+	&__info-information-phone {
+		font-size: 23px;
+		line-height: 33px;
+	}
 
-	&__forms {}
+	&__forms-info {
+		display: flex;
 
-	&__forms-info {}
+		margin-bottom: 30px;
 
-	&__forms-message {}
+		input {
+			width: 100%;
+			border: 1px solid #EEEEEE;
 
-	&__form-buttons {}
+			padding: 18px 0 19px 40px;
+		}
+	}
+	&__forms-info-name {
+		margin-right: 30px;
+	}
+
+	&__forms-message {
+
+		margin-bottom: 65px;
+
+		input {
+			width: 100%;
+
+			border: 1px solid #EEEEEE;
+			padding: 20px 0 87px 40px;
+		}
+	}
 }
 
-.form-buttons {
+@media (max-width: 1150px) {
+	.message {
+		&__info {
+			margin: 0 auto;
+		}
 
-	&__button {}
+		&__info-information {
+			margin-bottom: 30px;
+		}
+	
+		&__forms-info {
+			margin-bottom: 30px;
+		}
+
+		&__forms {
+			margin: 0 auto;
+		}
+	}
+}
+@media (max-width: 756px) {
+	.message {
+		&__info-address-city {
+			margin-bottom: 20px;
+		}
+
+		&__forms-info {
+			margin-bottom: 20px;
+		}
+
+		&__forms-message {
+			margin-bottom: 30px;
+		}
+	
+	}
 }
