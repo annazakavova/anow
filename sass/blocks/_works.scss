@@ -1,6 +1,5 @@
 .works {
-	// IMPORTANT
-	padding-bottom: 250px;
+	padding-bottom: 170px;
 
 	&__info {
 		position: relative;
@@ -113,6 +112,8 @@
 }
 @media (max-width: 500px) {
 	.works {
+		padding-bottom: 130px;
+
 		&__intro {
 			flex-wrap: wrap;
 			flex-direction: column;

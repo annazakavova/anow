@@ -152,32 +152,42 @@
 				</div>
 			</div>
 		</section>
-		<!-- <section class="work-cards">
+		<section class="work-cards">
 			<div class="big-container">
 				<div class="work-cards__wrapper">
-					<div class="work-cards__card">
+					<div class="work-cards__card card-left-top">
 						<img src="./img/work-cards/1.jpg" alt="work-cards-1">
 						<div class="work-cards__form">
 							<div class="work-cards__form-title">Crazy Max</div>
 							<input type="checkbox" name="html5"/>
 						</div>
 					</div>
-					<div class="work-cards__card">
+					<div class="work-cards__card big-card">
+						<img src="./img/work-cards/2.png" alt="work-cards-2">
+					</div>
+					<div class="work-cards__card card-right-top">
 						<img src="./img/work-cards/2.jpg" alt="work-cards-2">
 						<div class="work-cards__form">
 							<div class="work-cards__form-title">Stylish House</div>
 							<input type="checkbox" name="html5" />
 						</div>
 					</div>
-					<div class="work-cards__card">
+					<div class="work-cards__card card-left-bottom">
 						<img src="./img/work-cards/3.jpg" alt="work-cards-3">
 						<div class="work-cards__form">
 							<div class="work-cards__form-title">Differents</div>
 							<input type="checkbox" name="html5" />
 						</div>
 					</div>
-					<div class="work-cards__card">
+					<div class="work-cards__card card-right-bottom">
 						<img src="./img/work-cards/4.jpg" alt="work-cards-4">
+						<div class="work-cards__form">
+							<div class="work-cards__form-title">Bag</div>
+							<input type="checkbox" name="html5" />
+						</div>
+					</div>
+					<div class="work-cards__card card-hidden">
+						<img src="./img/work-cards/2.jpg" alt="work-cards-4">
 						<div class="work-cards__form">
 							<div class="work-cards__form-title">Bag</div>
 							<input type="checkbox" name="html5" />
@@ -186,7 +196,20 @@
 					
 				</div>
 			</div>
-		</section> -->
+		</section>
+		<!-- <sections class="skills">
+			<div class="container">
+				<div class="skills__intro">
+					<p class="skills__intro-link">our skills</p>
+					<h1 class="skills__intro-title">modern digital creative agency</h1>
+					<h2 class="skills__intro-subtitle">If you need to redesign your new project, new visual strategy, ux structure or you do have some cool ideas for
+					collaboration</h2>
+				</div>
+				<div class="skills__program">
+
+				</div>
+			</div>
+		</sections> -->
 		<section class="testimonials">
 			<div class="container">
 				<div class="testimonials__testimonials">testimonials</div>
@@ -216,7 +239,7 @@
 							<p class="posts__card-info-date">March 11, 2022</p>
 						</div>
 						<h2 class="posts__card-title">insights from interviewing the community</h2>
-						<p class="posts__card-link">view more</p>
+						<a href="#" class="posts__card-link">view more</a>
 					</div>
 					<div class="posts__card">
 						<div class="posts__card-img"><img src="./img/posts/2.jpg" alt="posts-2"></div>
@@ -226,7 +249,7 @@
 							<p class="posts__card-info-date">March 11, 2022</p>
 						</div>
 						<h2 class="posts__card-title">excelent company and opportunities</h2>
-						<p class="posts__card-link">view more</p>
+						<a href="#" class="posts__card-link">view more</a>
 					</div>
 					<div class="posts__card">
 						<div class="posts__card-img"><img src="./img/posts/3.jpg" alt="posts-3"></div>
@@ -235,7 +258,7 @@
 							<p class="posts__card-info-date">March 11, 2022</p>
 						</div>
 						<h2 class="posts__card-title">ways to increase your website</h2>
-						<p class="posts__card-link">view more</p>
+						<a href="#" class="posts__card-link">view more</a>
 					</div>
 				</div>
 
@@ -276,7 +299,7 @@
 	<footer class="footer">
 		<div class="container">
 			<div class="footer__nav-wrapper">
-				<div class="footer__nav">
+				<div class="footer__nav-logo">
 					<h1 class="footer__nav-name">anow</h1>
 					<div class="footer__nav-info">
 						<p class="footer__info-phone">+ (0712) 819 79 555</p>
@@ -284,31 +307,33 @@
 						<p class="footer__info-email">info@example.com</p>
 					</div>
 				</div>
-				<div class="footer__nav">
-					<p class="footer__title">Home</p>
-					<ul>
-						<li><a href="">Home Portfolio</a></li>
-						<li><a href="">Home Agency</a></li>
-						<li><a href="">Home Architecture</a></li>
-					</ul>
-				</div>
-				<div class="footer__nav">
-					<p class="footer__title">Portfolio</p>
-					<ul>
-						<li><a href="">Masonry Portfolio</a></li>
-						<li><a href="">Grid Portfolio</a></li>
-						<li><a href="">Metro Portfolio</a></li>
-						<li><a href="">Service Details</a></li>
-					</ul>
-				</div>
-				<div class="footer__nav">
-					<p class="footer__title">Blog</p>
-					<ul>
-						<li><a href="">Blog Style 1</a></li>
-						<li><a href="">Blog Style 2</a></li>
-						<li><a href="">Blog Style 3</a></li>
-						<li><a href="">Licensing</a></li>
-					</ul>
+				<div class="footer__nav-link">
+					<div class="footer__nav">
+						<p class="footer__title">Home</p>
+						<ul>
+							<li><a href="">Home Portfolio</a></li>
+							<li><a href="">Home Agency</a></li>
+							<li><a href="">Home Architecture</a></li>
+						</ul>
+					</div>
+					<div class="footer__nav">
+						<p class="footer__title">Portfolio</p>
+						<ul>
+							<li><a href="">Masonry Portfolio</a></li>
+							<li><a href="">Grid Portfolio</a></li>
+							<li><a href="">Metro Portfolio</a></li>
+							<li><a href="">Service Details</a></li>
+						</ul>
+					</div>
+					<div class="footer__nav">
+						<p class="footer__title">Blog</p>
+						<ul>
+							<li><a href="">Blog Style 1</a></li>
+							<li><a href="">Blog Style 2</a></li>
+							<li><a href="">Blog Style 3</a></li>
+							<li><a href="">Licensing</a></li>
+						</ul>
+					</div>
 				</div>
 			</div>
 			<div class="footer__copy-wrapper">

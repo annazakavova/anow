@@ -29,6 +29,14 @@
 		flex-wrap: wrap;
 	}
 
+	&__card {
+		transition: 0.3s ease-in;
+		
+		&:hover {
+			transform: scale(1.05);
+		}
+	}
+
 	&__card:not(:last-child) {
 		margin-right: 30px;
 	}
@@ -73,6 +81,10 @@
 		line-height: 21px;
 
 		color: #FD8558;
+
+		&:hover {
+			font-weight: bold;
+		}
 	}
 }
 
