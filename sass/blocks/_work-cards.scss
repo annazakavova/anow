@@ -94,6 +94,7 @@
 @media (max-width: 730px) {
 	.work-cards {
 		margin-top: 0;
+		padding-bottom: 60px;
 
 		&__wrapper {
 			grid-template-columns: repeat(1, 320px);

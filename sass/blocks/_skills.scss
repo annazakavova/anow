@@ -1,0 +1,153 @@
+.skills {
+
+	&__intro {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	&__info {
+		margin-right: 65px;
+
+		width: 462px;
+	}
+
+	&__info-link {
+		font-size: 14px;
+		line-height: 15px;
+
+		color: #FD8558;
+	}
+
+	&__info-title {
+		font-size: 32px;
+		line-height: 38px;
+
+		margin-bottom: 15px;
+	}
+
+	&__info-subtitle {
+		font-size: 14px;
+		line-height: 26px;
+
+		color: #999999;
+	}
+
+	&__program {
+		position: relative;
+	}
+
+	&__program-direction {
+		font-size: 18px;
+		line-height: 25px;
+
+		margin-bottom: 45px;
+	}
+
+	&__program-direction-intro {
+		display: flex;
+	}
+
+	&__program-direction-text {
+		margin-bottom: 13px;
+	}
+
+	&__program-illustration-statistics {
+		margin-left: 404px;
+	}
+	&__program-web-design-statistics {
+		margin-left: 348px;
+	}
+	&__program-development-statistics {
+		margin-left: 408px;
+	}
+
+	&__program-direction-buttom {
+		position: absolute;
+		width: 600px;
+		height: 10px;
+
+		background: #EEEEEE;
+	}
+
+	&__program-illustration-top {
+		position: absolute;
+		width: 540px;
+		height: 10px;
+
+		background: linear-gradient(90deg, #FF4803 0%, #FFAE35 59.74%);
+	}
+	&__program-web-design-top {
+		position: absolute;
+		width: 480px;
+		height: 10px;
+		
+		background: linear-gradient(90deg, #FF4803 0%, #FFAE35 59.74%);
+	}
+	&__program-development-top {
+		position: absolute;
+		width: 570px;
+		height: 10px;
+		
+		background: linear-gradient(90deg, #FF4803 0%, #FFAE35 59.74%);
+	}
+}
+
+@media (max-width: 1123px) {
+	.skills {
+		&__intro {
+			justify-content: center;
+		}
+		&__info {
+			margin-bottom: 20px;
+		}
+	}
+}
+@media (max-width: 656px) {
+	.skills {
+	
+		&__info {
+			margin-right: 0;
+		}
+		&__info-link {
+			text-align: center;
+		}
+		&__info-title {
+			text-align: center;
+		}
+		&__info-subtitle {
+			text-align: center;
+		}
+	
+		&__program-direction {
+			margin-bottom: 30px;
+		}
+	
+		&__program-illustration-statistics {
+			margin-left: 150px;
+		}
+	
+		&__program-web-design-statistics {
+			margin-left: 118px;
+		}
+	
+		&__program-development-statistics {
+			margin-left: 135px;
+		}
+	
+		&__program-direction-buttom {
+			width: 300px;
+		}
+	
+		&__program-illustration-top {
+			width: 260px;
+		}
+	
+		&__program-web-design-top {
+			width: 240px;
+		}
+	
+		&__program-development-top {
+			width: 275px;
+		}
+	}
+}
