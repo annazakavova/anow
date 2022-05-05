@@ -9,6 +9,17 @@
 		margin-right: 65px;
 
 		width: 462px;
+
+		a {
+			transition: 0.3s ease-in;
+		}
+		
+		a:hover {
+			font-weight: bold;
+			font-size: 16px;
+		
+			transform: scale(1.05);
+		}
 	}
 
 	&__info-link {

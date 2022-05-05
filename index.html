@@ -201,7 +201,7 @@
 			<div class="container">
 				<div class="skills__intro">
 					<div class="skills__info">
-						<p class="skills__info-link">our skills</p>
+						<a href="#" class="skills__info-link">our skills</a>
 						<h1 class="skills__info-title">modern digital creative agency</h1>
 						<h2 class="skills__info-subtitle">If you need to redesign your new project, new visual strategy, ux structure or you
 							do have some cool ideas for
@@ -236,12 +236,56 @@
 				</div>
 			</div>
 		</sections>
-		<!-- <section class="team">
+		<section class="team">
 			<div class="container">
 				<p class="team__link">our team</p>
-				<h1 class="team__title">meet our awesome team</h1>
+				<h1 class="team__title">eet our awesome team</h1>
+				<div class="team__cards">
+					<a href="#" class="team__card card1">
+						<div class="team__card-picture">
+							<img src="./img/team/1.jpg" alt="team-1">
+						</div>
+						<p class="team__card-name">Anna Brown</p>
+						<p class="team__card-position">Creative Director</p>
+					</a>
+					<a href="#" class="team__card card2">
+						<div class="team__card-picture">
+							<img src="./img/team/2.jpg" alt="team-2">
+						</div>
+						<p class="team__card-name">Andy Crown</p>
+						<p class="team__card-position">SEO manager</p>
+					</a>
+					<a href="#" class="team__card card3">
+						<div class="team__card-picture">
+							<img src="./img/team/3.jpg" alt="team-3">
+						</div>
+						<p class="team__card-name">Katy necker</p>
+						<p class="team__card-position">Designer</p>
+					</a>
+					<a href="#" class="team__card card3">
+						<div class="team__card-picture">
+							<img src="./img/team/4.jpg" alt="team-4">
+						</div>
+						<p class="team__card-name">margo kesslin</p>
+						<p class="team__card-position">Developer</p>
+					</a>
+					<a href="#" class="team__card card3">
+						<div class="team__card-picture">
+							<img src="./img/team/5.jpg" alt="team-5">
+						</div>
+						<p class="team__card-name">Kanye Jones</p>
+						<p class="team__card-position">Art Director</p>
+					</a>
+					<a href="#" class="team__card card3">
+						<div class="team__card-picture">
+							<img src="./img/team/6.jpg" alt="team-6">
+						</div>
+						<p class="team__card-name">Marta White</p>
+						<p class="team__card-position">Tester</p>
+					</a>
+				</div>
 			</div>
-		</section> -->
+		</section>
 		<section class="testimonials">
 			<div class="container">
 				<div class="testimonials__testimonials">testimonials</div>
@@ -312,18 +356,18 @@
 						</div>
 					
 					</div>
-					<div class="message__forms">
+					<form name="Form" onsubmit="validate()" class="message__forms">
 						<div class="message__forms-info">
-							<input class="message__forms-info-name" type="name" placeholder="Your name*">
-							<input class="message__forms-info-email" type="email" placeholder="Your e-mail*">
+							<input class="message__forms-info-name" type="name" id="name" name="name" data-reg="" placeholder="Your name*">
+							<input class="message__forms-info-email" type="email" id="email" name="email" placeholder="Your e-mail*">
 						</div>
 						<div class="message__forms-message">
-							<input type="text" placeholder="Your message*">
+							<input type="text" name="message" id="message" placeholder="Your message*">
 						</div>
 						<div class="message__form-buttons button">
 							<a class="form-buttons__button" href="#">Send Message</a>
 						</div>
-					</div>
+					</form>
 				</div>
 			</div>
 		</section>

@@ -1,0 +1,99 @@
+.team {
+	padding: 109px 0 115px 0;
+
+	&__link {
+		font-size: 14px;
+		line-height: 15px;
+
+		text-align: center;
+
+		color: #FD8558;
+
+		margin-bottom: 30px;
+	}
+
+	&__title {
+		font-size: 32px;
+		line-height: 42px;
+
+		text-align: center;
+
+		margin-bottom: 40px;
+	}
+
+	&__cards {
+		display: grid;
+		justify-content: center;
+		grid-template-columns: repeat(3, 350px);
+		grid-template-rows: repeat(2, 350px);
+		grid-gap: 30px;
+		grid-template-areas: 
+		"card1 card2 card3"
+		"card4 card5 card6";
+	}
+
+	&__card {
+		position: relative;
+	}
+
+	&__card-name {
+		position: absolute;
+		top: 162px;
+		left: 103px;
+
+		font-size: 24px;
+		line-height: 30px;
+
+		color: #FFFFFF;
+	}
+
+	&__card-position {
+		position: absolute;
+		top: 193px;
+		left: 115px;
+
+		font-size: 14px;
+		line-height: 24px;
+
+		color: #FCFCFC;
+	}
+}
+@media (max-width: 1200px) {
+	.team {
+		&__cards {
+			justify-content: center;
+			grid-template-columns: repeat(2, 350px);
+			grid-template-rows: repeat(3, 350px);
+			grid-template-areas:
+				"card1 card2"
+				"card3 card4"
+				"card5 card6"
+		}
+	}
+}
+@media (max-width: 767px) {
+	.team {
+		&__cards {
+			justify-content: center;
+			grid-template-columns: repeat(1, 300px);
+			grid-template-rows: repeat(6, 300px);
+			grid-template-areas:
+				"card1"
+				"card2"
+				"card3"
+				"card4"
+				"card5"
+				"card6"
+		}
+		&__card-name {
+			top: 162px;
+			left: 83px;
+		}
+		
+		&__card-position {
+			top: 193px;
+			left: 95px;
+
+		}
+	}
+}
